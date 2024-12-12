@@ -5,7 +5,7 @@ import HomeCarousel from "./components/HomeCarousel";
 export default function Home() {
   return (
     <div className="flex flex-col h-full">
-      <HomeCarousel/>
+      {/* <HomeCarousel/> */}
       
     </div>
   );
