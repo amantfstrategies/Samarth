@@ -114,17 +114,17 @@ const Products = () => {
 
       {/* Sub Image and Description */}
       <div className="flex flex-col  py-4 w-full">
-        <div className="h-1/2 w-full ">
+        <div className="pb-2 w-full ">
           <Image
-            className={`h-full w-full rounded-xl object-cover transition-all duration-500 ease-in-out ${
+            className={` w-full rounded-xl object-cover transition-all duration-500 ease-in-out ${
               isVisible || isAnimating
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 -translate-y-10"
             }`}
             src={selectedProduct.productSubImage}
             alt="Product"
-            width={500}
-            height={500}
+            width={1500}
+            height={1500}
           />
         </div>
         <div className="flex flex-col h-full md:h-1/2 py-2">
