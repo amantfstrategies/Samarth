@@ -47,7 +47,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="hidden md:flex md:absolute md:ml-32 h-full w-28 bg-black transform skew-x-[30deg] z-10"></div>
+          <div className="hidden md:flex md:absolute md:ml-32 h-full w-32 bg-black transform skew-x-[30deg] z-10"></div>
         </div>
 
         <div className="hidden md:flex w-full space-x-8 pt-12 text-sm z-20 md:pr-40">
